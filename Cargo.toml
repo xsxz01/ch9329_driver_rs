@@ -1,0 +1,8 @@
+[package]
+name = "ch9329_driver_rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde = { version = "1.0.216", features = ["derive"] }
+serialport = "4.6.1"
